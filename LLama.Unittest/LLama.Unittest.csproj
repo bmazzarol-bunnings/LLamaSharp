@@ -34,35 +34,35 @@
        DestinationFolder is where you want it saved.
        LocalFileName is the desired file name. -->
     <ItemGroup>
-        <DownloadFileItem Include="Llama-3.2-1B-Instruct-Q4_0">
-            <SourceUrl>https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0.gguf</SourceUrl>
-            <DestinationFolder>Models</DestinationFolder>
-            <LocalFileName>Llama-3.2-1B-Instruct-Q4_0.gguf</LocalFileName>
-        </DownloadFileItem>
+<!--        <DownloadFileItem Include="Llama-3.2-1B-Instruct-Q4_0">-->
+<!--            <SourceUrl>https://huggingface.co/bartowski/Llama-3.2-1B-Instruct-GGUF/resolve/main/Llama-3.2-1B-Instruct-Q4_0.gguf</SourceUrl>-->
+<!--            <DestinationFolder>Models</DestinationFolder>-->
+<!--            <LocalFileName>Llama-3.2-1B-Instruct-Q4_0.gguf</LocalFileName>-->
+<!--        </DownloadFileItem>-->
 
-        <DownloadFileItem Include="smollm-360m-instruct-add-basics-q8_0">
-            <SourceUrl>https://huggingface.co/HuggingFaceTB/smollm-360M-instruct-v0.2-Q8_0-GGUF/resolve/main/smollm-360m-instruct-add-basics-q8_0.gguf</SourceUrl>
-            <DestinationFolder>Models</DestinationFolder>
-            <LocalFileName>smollm-360m-instruct-add-basics-q8_0.gguf</LocalFileName>
-        </DownloadFileItem>
+<!--        <DownloadFileItem Include="smollm-360m-instruct-add-basics-q8_0">-->
+<!--            <SourceUrl>https://huggingface.co/HuggingFaceTB/smollm-360M-instruct-v0.2-Q8_0-GGUF/resolve/main/smollm-360m-instruct-add-basics-q8_0.gguf</SourceUrl>-->
+<!--            <DestinationFolder>Models</DestinationFolder>-->
+<!--            <LocalFileName>smollm-360m-instruct-add-basics-q8_0.gguf</LocalFileName>-->
+<!--        </DownloadFileItem>-->
 
-        <DownloadFileItem Include="jina-reranker-v1-tiny-en-FP16.gguf">
-            <SourceUrl>https://huggingface.co/gpustack/jina-reranker-v1-tiny-en-GGUF/resolve/main/jina-reranker-v1-tiny-en-FP16.gguf</SourceUrl>
-            <DestinationFolder>Models</DestinationFolder>
-            <LocalFileName>jina-reranker-v1-tiny-en-FP16.gguf</LocalFileName>
-        </DownloadFileItem>
+<!--        <DownloadFileItem Include="jina-reranker-v1-tiny-en-FP16.gguf">-->
+<!--            <SourceUrl>https://huggingface.co/gpustack/jina-reranker-v1-tiny-en-GGUF/resolve/main/jina-reranker-v1-tiny-en-FP16.gguf</SourceUrl>-->
+<!--            <DestinationFolder>Models</DestinationFolder>-->
+<!--            <LocalFileName>jina-reranker-v1-tiny-en-FP16.gguf</LocalFileName>-->
+<!--        </DownloadFileItem>-->
 
-        <DownloadFileItem Include="llava-v1.6-mistral-7b">
-            <SourceUrl>https://huggingface.co/cjpais/llava-1.6-mistral-7b-gguf/resolve/main/llava-v1.6-mistral-7b.Q3_K_XS.gguf</SourceUrl>
-            <DestinationFolder>Models</DestinationFolder>
-            <LocalFileName>llava-v1.6-mistral-7b.Q3_K_XS.gguf</LocalFileName>
-        </DownloadFileItem>
+<!--        <DownloadFileItem Include="llava-v1.6-mistral-7b">-->
+<!--            <SourceUrl>https://huggingface.co/cjpais/llava-1.6-mistral-7b-gguf/resolve/main/llava-v1.6-mistral-7b.Q3_K_XS.gguf</SourceUrl>-->
+<!--            <DestinationFolder>Models</DestinationFolder>-->
+<!--            <LocalFileName>llava-v1.6-mistral-7b.Q3_K_XS.gguf</LocalFileName>-->
+<!--        </DownloadFileItem>-->
 
-        <DownloadFileItem Include="mmproj-model-f16">
-            <SourceUrl>https://huggingface.co/cjpais/llava-1.6-mistral-7b-gguf/resolve/main/mmproj-model-f16.gguf</SourceUrl>
-            <DestinationFolder>Models</DestinationFolder>
-            <LocalFileName>mmproj-model-f16.gguf</LocalFileName>
-        </DownloadFileItem>
+<!--        <DownloadFileItem Include="mmproj-model-f16">-->
+<!--            <SourceUrl>https://huggingface.co/cjpais/llava-1.6-mistral-7b-gguf/resolve/main/mmproj-model-f16.gguf</SourceUrl>-->
+<!--            <DestinationFolder>Models</DestinationFolder>-->
+<!--            <LocalFileName>mmproj-model-f16.gguf</LocalFileName>-->
+<!--        </DownloadFileItem>-->
 
         <DownloadFileItem Include="all-MiniLM-L12-v2">
             <SourceUrl>https://huggingface.co/leliuga/all-MiniLM-L12-v2-GGUF/resolve/main/all-MiniLM-L12-v2.Q8_0.gguf</SourceUrl>
